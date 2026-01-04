@@ -128,7 +128,7 @@ EOF // TRANSMISSION TERMINATED
         <div className="max-w-6xl mx-auto px-6 py-5 flex justify-between items-center">
           <div className="text-xl font-bold tracking-tighter flicker flex items-center gap-2">
             <div className="w-2 h-2 bg-green-500 rounded-full animate-pulse shadow-[0_0_8px_#00ff41]"></div>
-            <span className="text-green-500">P.CHANDRASEKAR</span>
+            <span className="text-green-500">PRANESH.C</span>
             <span className="text-[10px] text-green-400 border border-green-500/40 px-2 ml-2 py-0.5 rounded font-mono uppercase tracking-widest bg-green-500/5">Cybersecurity Analyst</span>
           </div>
           <div className="hidden md:flex gap-10 text-[10px] font-mono uppercase tracking-[0.3em] text-green-800">
