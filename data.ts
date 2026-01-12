@@ -65,8 +65,8 @@ export const RESUME_DATA: PortfolioData = {
     "SC-300: Microsoft Identity and Access Administrator",
     "AZ-900: Microsoft Azure Fundamentals",
     "Netskope Cloud Security Specialist",
-    "CEH: Certified Ethical Hacker (Upcoming)",
-    "CompTIA Security+ (Upcoming)"
+    "Upcoming: 1) CEH (Certified Ethical Hacker)",
+    "Upcoming: 2) CompTIA Security+"
   ],
   awards: [
     "Wipro CRS Best CollegeToCorporate (April-2022)",
