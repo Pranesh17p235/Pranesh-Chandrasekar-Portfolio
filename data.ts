@@ -1,3 +1,4 @@
+
 import { PortfolioData } from './types';
 
 export const RESUME_DATA: PortfolioData = {
@@ -63,7 +64,9 @@ export const RESUME_DATA: PortfolioData = {
     "SC-200: Microsoft Security Operations Analyst",
     "SC-300: Microsoft Identity and Access Administrator",
     "AZ-900: Microsoft Azure Fundamentals",
-    "Netskope Cloud Security Specialist"
+    "Netskope Cloud Security Specialist",
+    "CEH: Certified Ethical Hacker (Upcoming)",
+    "CompTIA Security+ (Upcoming)"
   ],
   awards: [
     "Wipro CRS Best CollegeToCorporate (April-2022)",
