@@ -1,15 +1,15 @@
-
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  // Setting base to './' ensures all assets are referenced relatively.
-  // This is critical for GitHub Pages if your repo is not at the root domain.
+  // Using './' is the most robust way to ensure assets load correctly 
+  // regardless of whether the site is in a subdirectory or root.
   base: './',
   root: './',
   build: {
     outDir: 'dist',
     emptyOutDir: true,
-    target: 'esnext'
+    target: 'esnext',
+    assetsDir: 'assets',
   },
   server: {
     port: 3000,
