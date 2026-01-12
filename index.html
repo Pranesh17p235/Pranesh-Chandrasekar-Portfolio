@@ -69,6 +69,8 @@
 <body>
     <div id="root"></div>
     <div class="scanline"></div>
-    <script type="module" src="/index.tsx"></script>
+    <!-- Fixed: removed leading slash to ensure Vite resolves this relative to the base path -->
+    <script type="module" src="index.tsx"></script>
+<script type="module" src="/index.tsx"></script>
 </body>
 </html>
