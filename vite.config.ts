@@ -1,9 +1,8 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  // Setting base to './' ensures all assets are referenced relatively.
-  // This is critical for GitHub Pages if your repo is not at the root domain.
-  base: './',
+  // This matches your URL: https://pranesh17p235.github.io/Pranesh-Chandrasekar/
+  base: '/Pranesh-Chandrasekar/',
   root: './',
   build: {
     outDir: 'dist',
