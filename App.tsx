@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import MatrixBackground from './components/MatrixBackground';
 import Terminal from './components/Terminal';
@@ -40,16 +39,9 @@ const App: React.FC = () => {
   };
 
   const handleSecureChat = () => {
-    // User provided email address
     const email = "praneshpranu00@gmail.com";
     const subject = "OFFER LETTER";
-    
-    // Construct direct Gmail compose URL for browser-based access
-    // view=cm: Compose mode
-    // fs=1: Fullscreen/standalone compose window
     const gmailUrl = `https://mail.google.com/mail/?view=cm&fs=1&to=${email}&su=${encodeURIComponent(subject)}`;
-    
-    // Open in a new tab to ensure it uses the browser session
     window.open(gmailUrl, '_blank');
   };
 
@@ -295,8 +287,8 @@ EOF // TRANSMISSION TERMINATED
               Encrypted transmission complete. Subject identity: PRANESH CHANDRASEKAR. Role: Cybersecurity Analyst. System status nominal.
             </div>
             
-            {/* Social Links Section */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+            {/* Social Links Section - Forced stack with grid-cols-1 */}
+            <div className="grid grid-cols-1 gap-6 max-w-sm">
               <a 
                 href="https://www.linkedin.com/in/pranesh-chandrasekar-6487411aa" 
                 target="_blank" 
