@@ -287,8 +287,8 @@ EOF // TRANSMISSION TERMINATED
               Encrypted transmission complete. Subject identity: PRANESH CHANDRASEKAR. Role: Cybersecurity Analyst. System status nominal.
             </div>
             
-            {/* Social Links Section - Forced stack with grid-cols-1 */}
-            <div className="grid grid-cols-1 gap-6 max-w-sm">
+            {/* Social Links Section - Explicit flex-col ensures stacked layout */}
+            <div className="flex flex-col gap-6 max-w-sm">
               <a 
                 href="https://www.linkedin.com/in/pranesh-chandrasekar-6487411aa" 
                 target="_blank" 
